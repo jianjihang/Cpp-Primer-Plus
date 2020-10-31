@@ -1879,5 +1879,16 @@ average queue size: 0.16
  average wait time: 0.66 minutes
 Done!
 
+Case Study: Bank of Heather Automatic Teller
+Enter maximum size of queue: 10
+Enter the number of simulation hours: 100
+Enter the average number of customers per hour: 30
+customers accepted: 2909
+  customers served: 2904
+         turnaways: 134
+average queue size: 4.63
+ average wait time: 9.56 minutes
+Done!
 ```
 
+Note that going from 15 customers per hour to 30 customers per hour doesn’t double the average wait time; it increases it by about a factor of 15. Allowing a longer queue just makes matters worse. However, the simulation doesn’t allow for the fact that many customers, frustrated with a long wait, would simply leave the queue.
